@@ -1,0 +1,90 @@
+/*
+Theme Name: Assignment
+Author: Rutvik and Bhawani
+Description: This is for for the Assignment 2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: Assignment
+*/
+/***************
+01: Header
+***************/
+.site-header{
+    height:150px;
+    background: #f0f0f0;
+}
+/***************
+02: Main Menu
+***************/
+.site-navigation{
+    width: 100%;
+    display: block;
+    clear: both;
+    background: #2ca358;
+    height: 60px;
+    font-size: 20px;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin:0 auto;  
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+/***************
+03: Home Content
+***************/
+.home-main{
+    margin-top: 15px;
+}
+.home-posts{
+     background: #f0f0f0;
+     padding:30px 30px !important;
+    
+}
+
+
+/***************
+04: Sidebar & Widgets
+***************/
+.home-sidebar {
+    background: #ddd;
+    min-height: 500px;
+
+}
+/***************
+05: Footer
+***************/
+.site-footer{
+    margin-top: 15px;
+    background: #333333;
+    height: 200px;
+}
+
+
